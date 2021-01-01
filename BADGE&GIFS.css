@@ -1,0 +1,187 @@
+/* ----- ajusta a foto, tira a borda cinza e deixa maior ---- */
+#chat .badge-box i, .right-side-wrapper #chat .badge-box .icon-arrow-down {
+    transform: scale(1) !important;}
+
+/* ZOOM */
+
+/* Ciendy */ #chat-messages .id-3548312 .badge-box:hover ,/* FELIPE */ #chat-messages .id-3964410 .badge-box:hover ,/* BRENDA */ #chat-messages .id-30410098 .badge-box:hover ,/* nome-padrao */ #chat-messages .id-00000000 .badge-box:hover { width: 65px; height: 65px; transition: 0.5s;  } 
+
+/* GIFs */
+
+#chat-messages .id-3548312 .badge-box i.bdg, .id-3548312 .no-badge i { background-image: url(https://media1.tenor.com/images/193b200261db8aa12465733e03d63aa5/tenor.gif?itemid=5598662)!important; background-size: cover; width: 100%; height: 100%; background-position: initial; position: absolute; top: 0px; left: 0px; border: 0px solid #444A59; border-radius: 0; background-size: cover; width: 100%; height: 100%; background-position: initial;}
+#chat-messages .id-3964410 .badge-box i.bdg, .id-3964410 .no-badge i { background-image: url(https://78.media.tumblr.com/tumblr_lyee6jzMZM1qeh0ago1_400.gif)!important; background-size: cover; width: 100%; height: 100%; background-position: initial; position: absolute; top: 0px; left: 0px; border: 0px solid #444A59; border-radius: 0; background-size: cover; width: 100%; height: 100%; background-position: initial;}
+#chat-messages .id-30410098 .badge-box i.bdg, .id-30410098 .no-badge i { background-image: url(https://media.giphy.com/media/RVpdKaTHQSiIw/giphy.gif)!important; background-size: cover; width: 100%; height: 100%; background-position: initial; position: absolute; top: 0px; left: 0px; border: 0px solid #444A59; border-radius: 0; background-size: cover; width: 100%; height: 100%; background-position: initial;}
+
+/*  */
+	    
+.cm.id-3548312::before {
+    background-image: url(https://i.imgur.com/sUL80BD.png);
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    z-index: -1;
+}
+.cm.id-3548312::after,
+.cm.id-3548312::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    opacity: 0.5;
+    background-image: linear-gradient(to bottom,transparent,#000);
+}
+		    
+.cm.id-3964410::before {
+    background-image: url(https://i.imgur.com/joLAk88.png);
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    z-index: -1;
+}
+.cm.id-3964410::after,
+.cm.id-3964410::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    opacity: 0.5;
+    background-image: linear-gradient(to bottom,transparent,#000);
+}
+		    
+.cm.id-30410098::before {
+    background-image: url(https://i.imgur.com/Xwqzncb.jpg);
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    z-index: -1;
+}
+.cm.id-30410098::after,
+.cm.id-30410098::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    opacity: 0.5;
+    background-image: linear-gradient(to bottom,transparent,#000);
+}
+								
+/* BADGE NO PERFIL */
+/* Ciendy */
+
+#user-rollover.id-3548312 .badge-box i { 
+background-image: url(2) !important;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 0;
+}
+
+#user-rollover.id-3548312 .meta {
+    height: 145px!important;
+}
+
+#user-rollover.id-3548312 .joined:after {
+    position: absolute;
+    content: 'Astronauta';
+    background-image: url(https://i.imgur.com/bCqxRM2.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    color: #00799E!important;
+    margin: 47px 0 0 -96px;
+    padding-left: 21px!important;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+/*  */
+
+#user-rollover.id-3964410 .badge-box i { 
+background-image: url() !important;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 0;
+}
+
+#user-rollover.id-3964410 .meta {
+    height: 145px!important;
+}
+
+#user-rollover.id-3964410 .joined:after {
+    position: absolute;
+    content: 'Astronauta';
+    background-image: url(https://i.imgur.com/bCqxRM2.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    color: #00799E!important;
+    margin: 47px 0 0 -96px;
+    padding-left: 21px!important;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+/*  */
+
+#user-rollover.id-3548312 .badge-box i { 
+background-image: url() !important;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 0;
+}
+
+#user-rollover.id-3548312 .meta {
+    height: 145px!important;
+}
+
+#user-rollover.id-3548312 .joined:after {
+    position: absolute;
+    content: 'Astronauta';
+    background-image: url(https://i.imgur.com/bCqxRM2.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    color: #00799E!important;
+    margin: 47px 0 0 -96px;
+    padding-left: 21px!important;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+}
